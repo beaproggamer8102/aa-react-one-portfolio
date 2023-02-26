@@ -19,10 +19,19 @@ function NavBar() {
         },
         {
             id:4,
+            link: 'certificate'
+        }, 
+        {
+            id:5,
+            link: 'coding'
+        },
+
+        {
+            id:6,
             link: 'experiance'
         },
         {
-            id:5,
+            id:7,
             link: 'contact'
         },
     ]
@@ -30,7 +39,7 @@ function NavBar() {
   return (
     <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
         <div>
-            <h1 className='text-5xl font-signature ml-2'>Aman</h1>
+            <h1 className='text-5xl  ml-2'>Ankit Raj</h1>
         </div>
         <ul className='hidden md:flex'>
 

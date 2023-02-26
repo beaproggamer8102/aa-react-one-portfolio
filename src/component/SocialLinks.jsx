@@ -2,7 +2,7 @@ import React from 'react'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-
+import { FaPhone } from 'react-icons/fa';
 
 const SocialLinks = () => {
 
@@ -14,7 +14,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: 'https://www.linkedin.com/in/aman-kumar-a8806421b/',
+      href: 'https://linkedin.com/in/ankitrj1602',
       style: 'rounded-tr-md'
     },
     {
@@ -24,7 +24,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: 'https://github.com/beaproggamer8102',
+      href: 'https://github.com/ankitraj-1602',
       // style: 'rounded-tr-md'
     },
     {
@@ -34,7 +34,7 @@ const SocialLinks = () => {
           mail <HiOutlineMail size={30} />
         </>
       ),
-      href: 'mailto:amanagrawal8102@gmail.com',
+      href: 'mailto:ankitr1602@gmail.com',
       // style: 'rounded-tr-md'
     },
     {
@@ -44,7 +44,17 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: './resume.pdf',
+      href: './ankitraj_resume.pdf',
+      download: true,
+    },
+    {
+      id: 5,
+      child: (
+        <>
+          call   <FaPhone size={30} />
+        </>
+      ),
+      href: 'tel:+919668616234',
       style: 'rounded-br-md',
       download: true,
     },

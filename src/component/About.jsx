@@ -11,10 +11,11 @@ function About() {
                         
 
                         </div>
-                        <p className='text-xl mt-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere saepe, iure aliquam quae cupiditate esse? Officia aut deserunt repellat beatae amet dolorem veniam inventore natus, cumque temporibus voluptatum fugiat expedita facere. Voluptas aut labore enim in quas ea amet soluta! Ex optio minima officiis reprehenderit vero voluptate nobis, sapiente obcaecati.</p>
+                        <p className='text-xl mt-20'>I am a full-stack MERN (MongoDB, Express, React, Node.js) developer and DSA (Data Structures and Algorithms) coding enthusiast.</p>
                         <br />
-                        <p className='text-xl'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa in quod nostrum magnam animi explicabo ad reprehenderit, neque delectus nisi atque ipsum minima rem cupiditate voluptate nemo veritatis possimus earum. Provident illum amet qui veritatis accusantium ut! Molestias cum labore nihil quos explicabo. Rem quidem omnis veniam odit, repellat nihil?</p>
-                   
+                        <p className='text-xl'>As a MERN stack developer, I have extensive knowledge of both front-end and back-end development. I have expertise in creating responsive user interfaces using ReactJS, Redux, and Material UI. On the back-end, I have worked with Node.js and Express to build RESTful APIs and integrate them with MongoDB for data storage.</p>
+                   <br/>
+                   <p className='text-xl'>In addition to my MERN stack skills, I am also passionate about data structures and algorithms. I enjoy solving complex programming problems and enhancing my skills in this area. My proficiency in DSA helps me design efficient and optimized code for various applications.</p>
             </div>
         </div>
             )

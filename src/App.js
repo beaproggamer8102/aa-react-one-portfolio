@@ -5,6 +5,8 @@ import  About  from "./component/About";
 import  Portfolio  from "./component/Portfolio";
 import  Experiance  from "./component/Experiance";
 import  Contact  from "./component/Contact";
+import  Certificate  from "./component/Certificate";
+import Coding from "./component/Coding";
 
 
 
@@ -16,8 +18,11 @@ function App() {
       <Home/>
       <About/>
       <Portfolio />
+      <Certificate/>
+      <Coding/>
       <Experiance/>
-      <Contact/>
+      <Contact recipientEmail="ankitr1602@gmail.com" />
+
 
 
 
